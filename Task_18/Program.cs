@@ -4,8 +4,8 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите номер четверти от 1 до 4:");
-int quarter = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите номер четверти от 1 до 4: ");
+int quarter = Convert.ToInt32(Console.ReadLine()); //можно оставить строкой и все решение строками делаем
 
 string Quarter(int quart)
 {
